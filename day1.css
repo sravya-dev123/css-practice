@@ -1,0 +1,38 @@
+* CSS Examples
+Learn from over 700 examples! With our editor, you can edit the CSS, and click on a button to view the result.
+
+* Use the Menu
+We recommend reading this tutorial, in the sequence listed in the menu.
+
+If you have a large screen, the menu will always be present on the left.
+
+If you have a small screen, open the menu by clicking the top menu sign ☰.
+
+
+* 
+CSS Templates
+We have created some responsive W3.CSS templates for you to use.
+
+You are free to modify, save, share, and use them in all your projects.
+
+* main 
+
+## Introduction to CSS
+
+CSS stands for **Cascading Style Sheets**. It is a stylesheet language used to **style and design web pages**. CSS is used to control the appearance, layout, colors, fonts, spacing, and overall presentation of HTML elements.
+
+HTML is used to create the **structure** of a webpage, while CSS is used to make the webpage **attractive and user-friendly**.
+
+### Example:
+
+```css
+h1 {
+    color: blue;
+    text-align: center;
+}
+```
+
+In this example, CSS changes the color and alignment of the `<h1>` element.
+
+CSS helps developers create **responsive, organized, and visually appealing websites**.
+
