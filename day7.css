@@ -1,0 +1,19 @@
+/*CSS RGB and RGBA Colors
+An RGB color value represents RED, GREEN, and BLUE light sources.
+*/
+h1{
+    background-color: rgb(255, 99, 0);
+}
+
+
+/*An RGBA color value is specified with:
+
+rgba(red, green, blue, alpha)
+
+
+example:*/
+
+h1{
+    background-color: rgb(255, 99, 0,0.5) ;
+}
+/*0.5 is the alpha color used to light colors*/
