@@ -1,0 +1,39 @@
+/*CSS Colors
+In CSS, colors are specified by using a predefined color name, or with a RGB, HEX, HSL, RGBA, HSLA value.*/
+
+h1{
+    background-color: lightblue;
+    color: white;
+}
+
+p{
+    background-color: orange;
+    color: white;
+
+    border-color: black;
+}
+
+/*
+
+color: 
+the value of color property is blue we can assigned the color to h1 tag
+
+backgroundcolor:
+the value we can to background color property is white 
+
+border-color:
+i used to put the color of bpredrs
+
+
+*/
+
+
+/*
+CSS Color Values
+In CSS, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values:
+*/
+
+h2{
+    background-color: rgb(red, green, blue);
+     background-color:rgb(255, 99, 71);
+}
