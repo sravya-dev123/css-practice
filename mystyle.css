@@ -1,0 +1,26 @@
+/*comments*/
+
+/*this is a single line comment*/
+p{
+    color: red;
+}
+
+/*You can add comments wherever you want in the code:*/
+
+h1{
+    color: aliceblue /*we can also add the cs in end statements*/;
+}
+
+h2{
+    color:/*we can also add css in middle of stmts*/ brown;
+}
+
+/*Comments can also span multiple lines: */
+
+/*
+thos is a 
+multi line
+comment*/
+h1{
+    border: 0cap;
+}
