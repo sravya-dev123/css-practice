@@ -1,0 +1,42 @@
+/*CSS Errors
+Errors in CSS can lead to unexpected behavior or styles not being applied correctly.
+
+This page shows common CSS mistakes, and how to avoid them.*/
+
+
+/*semicolon missing*/
+h1{
+    color: antiquewhite
+    /*here is a semicolon missing soo it directly becomes a error*/
+
+}
+
+
+/*Invalid Property Names*/
+
+h2{
+    colr :blue;
+    /*the mistake is color spelling*/
+}
+
+
+/*Invalid Values*/
+
+h1{
+    width: -199px;
+    /*here is the invalid width */
+}
+
+/*unclosed brackets*/
+h1{
+
+background-color: aliceblue;
+
+
+/*extra colons*/
+h1{
+    color::blue;
+/*here mistake is two colons */
+
+}
+
