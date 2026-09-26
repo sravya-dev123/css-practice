@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+div.ex1 {
+  width: 300px;
+  background-color: yellow;
+}
+
+div.ex2 {
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+</style>
+</head>
+<body>
+    <!--Padding and box-sizing
+The box-sizing property defines how the width and height of an element are calculated: should they include padding and borders, or not.
+
+The box-sizing property can have the following values:
+
+content-box - This is default. The width and height properties includes only the content (border and padding are not included)
+border-box - The width and height properties includes content, padding and border
+So, to keep the width at 300px, no matter the amount of padding, you can use the box-sizing: border-box;. This causes the element to maintain its actual width; if you increase the padding, the available content space will decrease-->
+<div class="ex1">This div is 300px wide.</div>
+<br>
+
+<div class="ex2">The width of this div remains at 300px, in spite of the 50px of total left and right padding, because of the box-sizing: border-box property.
+</div>
+
+</body>
+</html>
