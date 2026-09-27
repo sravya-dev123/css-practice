@@ -1,0 +1,42 @@
+<!--
+Width and Height of an Element
+In order to set the width and height of an element correctly in all browsers, you need to know how the box model works.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+</style>
+</head>
+<body>
+
+<h2>Calculate the total width:</h2>
+
+<img src="klematis4_big.jpg" width="350" height="263" alt="Klematis">
+<div>The picture above is 350px wide. The total width of this element is also 350px. The total height of this element is 80px.</div>
+
+</body>
+</html>
+
+<!--This <div> element will have a total width of 350px and a total height of 80px: -->
+
+    <!---
+    
+      320px (width of content area)
++ 20px (left padding + right padding)
++ 10px (left border + right border)
+= 350px (total width)
+
+  50px (height of content area)
++ 20px (top padding + bottom padding)
++ 10px (top border + bottom border)
+= 80px (total height)
+    -->
